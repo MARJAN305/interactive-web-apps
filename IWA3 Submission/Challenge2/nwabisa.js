@@ -1,6 +1,6 @@
-var firstname = "Nwabisa"
-var surname = "Gabe"
-var role = "CEO"
+const firstname = "Nwabisa";
+const surname = "Gabe";
+const role = "CEO";
 
-var display= firstname + " Nwabisa " + surname + " Gabe " + role + " CEO "
-document.querySelector('#nwabisa').innerText = display
+const display = `${firstname} ${surname} (${role})`;
+document.querySelector('#nwabisa').innerText = display;

@@ -1,10 +1,7 @@
-/** This is the firstname of the user */
-
+//replaced the single quotes with double quotes
 const user = "John"
-
-
-/* This is the lastname of the user */
 
 const surname = "Smith"
 
+//removed the semicolons and put a coma between user & surname
 console.log(user, surname)
